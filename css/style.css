@@ -1,1 +1,108 @@
 /* code here */
+/*reset dan dasar */
+body {
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+}
+
+/*Header & Navigasi */
+
+header {
+    background: #2d3436;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background: #f1f2f6;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px  5px rgba(0,0,0,0.1);
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #0984e3;
+    font-weight: bold;
+
+}
+nav a:hover {
+    color: #d63031;
+}
+
+/* layouting */
+section {
+     padding: 60px 20px;
+     max-width: 900px;
+     margin:auto;
+}
+
+.hero {
+    background: #0984e3;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+/* komponen */
+.cta-button {
+    display: inline-block ;
+    background: #ff7675;
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+    transition: transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #d63031;
+    transform: scale(1.05);
+}
+
+.form-container {
+    text-align: center;
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+input[type="email"] {
+    padding: 12px;
+    width:280px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px 25px;
+    background: #2d3436;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #000;
+}
+
+/* footer */
+footer {
+    background: #2d3436;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
